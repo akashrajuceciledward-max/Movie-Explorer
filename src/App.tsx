@@ -9,7 +9,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/login" element={<LoginPage />} />
-      <Route path="/signup" element={<SignupPage />} />  {/* 👈 FIX */}
+      <Route path="/signup" element={<SignupPage />} />
 
       <Route
         path="/"

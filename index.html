@@ -1,22 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Explorer</title>
 
-    <!-- Keep favicon only if vite.svg exists; otherwise replace it -->
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-
-    <!-- ❌ REMOVE Tailwind CDN (it breaks Vite Tailwind setup) -->
+    <!-- Tailwind CDN (quick deploy, optional for production) -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <title>Movie Explorer</title>
+    <!-- Favicon (optional) -->
+    <!-- <link rel="icon" href="/Movie-Explorer/favicon.ico" /> -->
   </head>
 
-  <body>
+  <body class="bg-gray-50">
     <div id="root"></div>
-
-    <!-- This must exist; DO NOT modify the path -->
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- DO NOT reference /src/main.tsx manually -->
   </body>
 </html>
